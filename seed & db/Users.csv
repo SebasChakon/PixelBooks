@@ -1,0 +1,11 @@
+Cod_User, Name_User, Apellido_User, Nick_Name, Pass_User, Id_Rol, Foto_User
+123, "John", "Doe", "John123", "password123", 1, "img/user.jpg"
+456, "Jane", "Smith", "Jane456", "password456", 2, "img/user.jpg"
+789, "Alice", "Brown", "Alice789", "password789", 2, "img/user.jpg"
+1010, "Bob", "Johnson", "Bob1010", "password1010", 1, "img/user.jpg"
+1111, "Charlie", "Williams", "Charlie1111", "password1111", 2, "img/user.jpg"
+1212, "David", "Jones", "David1212", "password1212", 1, "img/user.jpg"
+1313, "Emma", "Taylor", "Emma1313", "password1313", 2, "img/user.jpg"
+1414, "Olivia", "Anderson", "Olivia1414", "password1414", 1, "img/user.jpg"
+1515, "Sophia", "Thomas", "Sophia1515", "password1515", 2, "img/user.jpg"
+1616, "Liam", "Jackson", "Liam1616", "password1616", 1, "img/user.jpg"
