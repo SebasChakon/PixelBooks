@@ -14,7 +14,7 @@ import java.sql.DriverManager;
 public class Conexion {
     
     private Connection con;
-    private String url = "jdbc:mysql://localhost:3307/PixelBooks?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private String url = "jdbc:mysql://localhost:3306/PixelBooks?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private String user = "root";
     private String pass = "sebas";
     private String driver = "com.mysql.cj.jdbc.Driver";
