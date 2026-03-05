@@ -15,7 +15,7 @@ A virtual library designed for students who need quick access to academic and ge
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer         | Technology                               |
 |---------------|------------------------------------------|
@@ -64,6 +64,6 @@ A virtual library designed for students who need quick access to academic and ge
 
 ---
 
-## 📄 License
+## License
 
 MIT — free to use, modify, and distribute.
