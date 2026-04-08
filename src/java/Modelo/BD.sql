@@ -17,6 +17,8 @@ CREATE TABLE Usuario (
     FOREIGN KEY (Id_Rol) REFERENCES Rol(Id_Rol)
 );
 
+ALTER TABLE Usuario ADD COLUMN Foto_User VARCHAR(255) DEFAULT 'img/user.jpg';
+
 CREATE TABLE Autor (
     Id_Autor INT PRIMARY KEY AUTO_INCREMENT,
     Name_Autor VARCHAR(100) NOT NULL,
@@ -67,6 +69,10 @@ INSERT INTO Libro (Id_Book, Tittle_Book, Lan_Book, Edit_Book, Link_Book, Id_Auto
 (9, 'Harry Potter and the Philosopher''s Stone', 'English', 'Bloomsbury', 'https://docenti.unimc.it/antonella.pascali/teaching/2018/19055/files/ultima-lezione/harry-potter-and-the-philosophers-stone', 2),
 (10, 'The Old Man and the Sea', 'English', 'Charles Scribner''s Sons', 'https://www.arvindguptatoys.com/arvindgupta/oldmansea.pdf', 3);
 
+INSERT INTO Rol (Id_Rol, Name_Rol) VALUES
+(1,'Admin'),
+(2,'User');
+
 INSERT INTO Usuario (Cod_User, Name_User, Apellido_User, Nick_Name, Pass_User, Id_Rol, Foto_User) VALUES
 (123, 'John', 'Doe', 'John123', 'password123', 1, 'img/user.jpg'),
 (456, 'Jane', 'Smith', 'Jane456', 'password456', 2, 'img/user.jpg'),
@@ -78,5 +84,3 @@ INSERT INTO Usuario (Cod_User, Name_User, Apellido_User, Nick_Name, Pass_User, I
 (1414, 'Olivia', 'Anderson', 'Olivia1414', 'password1414', 1, 'img/user.jpg'),
 (1515, 'Sophia', 'Thomas', 'Sophia1515', 'password1515', 2, 'img/user.jpg'),
 (1616, 'Liam', 'Jackson', 'Liam1616', 'password1616', 1, 'img/user.jpg');
-       
-ALTER TABLE Usuario ADD COLUMN Foto_User VARCHAR(255) DEFAULT 'img/user.jpg';
