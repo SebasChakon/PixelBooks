@@ -34,7 +34,7 @@
                         <img src="img/azul png.png" alt="Logo" width="200"/>
                         <br>
                         <h3>Register</h3>
-                            <label>Sing up for free!🐐</label>
+                            <label>Sign up for free!🐐</label>
                         </div>
                         <div class="form-group">
                             <label>User: </label>
