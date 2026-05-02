@@ -56,14 +56,6 @@ A virtual library designed for students who need quick access to academic and ge
 
 ---
 
-## Roadmap
-
-- [ ] Migration to distributed system architecture
-- [ ] Performance and scalability improvements
-- [ ] Category-based book recommendation system
-
----
-
 ## License
 
 MIT — free to use, modify, and distribute.
