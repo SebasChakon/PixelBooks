@@ -2,7 +2,7 @@
 
 A virtual library designed for students who need quick access to academic and general reading resources. PixelBooks provides a centralized repository of books across various categories, allowing users to build a personal collection and access digital content seamlessly.
 
-> **Status:** Project complete — a migration to a **distributed system architecture** is planned for the near future.
+> **Status:** Project complete — a remake is planned for the near future.
 
 ---
 
