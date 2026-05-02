@@ -40,7 +40,7 @@ A virtual library designed for students who need quick access to academic and ge
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/pixelbooks.git
+   git clone https://github.com/SebasChakon/PixelBooks.git
    ```
 
 2. **Set up the database:**
